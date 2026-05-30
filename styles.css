@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+}
+
+.dog-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.navbar {
+  background-color: #1F2937;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  color: white;
+  gap: 20px;
+  font-size: 30px;
+}
