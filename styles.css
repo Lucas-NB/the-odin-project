@@ -7,7 +7,7 @@
 
 
 html {
-  height: 100vh;
+  min-height: 100%;
 }
 
 body {
@@ -72,6 +72,10 @@ body {
 
 .facts-header {
   padding: 30px;
+  color: #1F2937;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: Hero, sans-serif;
 }
 
 .cards {
@@ -89,8 +93,20 @@ body {
 .card-image {
   border-radius: 20px;
   border: 4px solid #3882f6;
-  flex: 0 0 250px;
+  flex: 0 0 0;
   height: 250px;
   min-width: 0;
   max-width: 100%;
+}
+
+.quote {
+  background-color: #E5E8E8;
+  padding: 40px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-text {
+  font-size: 36px;
 }
