@@ -122,3 +122,39 @@ body {
   font-weight: bold;
   align-self: end;
 }
+
+.call-to-action {
+  padding: 3rem;
+}
+
+.call-to-action-container {
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: white;
+  padding: 2rem 4rem;
+  display: flex;
+}
+
+.call-to-action-text-container {
+  flex: 3;
+}
+
+.call-to-action-button {
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 0 1rem;
+  font-weight: bold;
+}
+
+.call-to-action-text-container > p {
+  color: #e1e1e1;
+}
+
+.footer {
+  color: #e1e1e1;
+  background-color: #1F2937;
+  padding: 1rem;
+  text-align: center;
+}
