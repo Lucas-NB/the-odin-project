@@ -1,5 +1,6 @@
-import {getComputerChoice} from "./get-computer-choice.ts";
+import type {GameState} from "./types/GameState.ts";
 
-for (let i = 0; i < 100; i++) {
-    console.log(getComputerChoice())
-}
+const gameState: GameState = {playerScore: 0, computerScore: 0}
+
+
+
