@@ -1,3 +1,5 @@
-type GameOption = "rock" | "paper" | "scissor"
+import type { validGameOptions } from "../constants/valid-game-options.ts";
 
-export type { GameOption }
+type GameOption = (typeof validGameOptions)[number];
+
+export type { GameOption };

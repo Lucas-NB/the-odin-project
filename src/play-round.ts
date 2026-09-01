@@ -19,10 +19,12 @@ function playRound(
     (playerChoice === "scissor" && computerChoice === "paper")
   ) {
     gameState.playerScore++;
+    console.log("player win", gameState.playerScore, gameState.computerScore);
     return gameState;
   }
 
   gameState.computerScore++;
+  console.log("Loose win", gameState.playerScore, gameState.computerScore);
 
   return gameState;
 }
