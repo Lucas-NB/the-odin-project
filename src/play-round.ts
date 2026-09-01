@@ -26,3 +26,5 @@ function playRound(
 
   return gameState;
 }
+
+export { playRound };

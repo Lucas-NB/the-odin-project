@@ -1,6 +1,5 @@
-import type {GameState} from "./types/GameState.ts";
+import { playGame } from "./play-game.ts";
+import { getHumanChoice } from "./get-human-choice.ts";
+import { getComputerChoice } from "./get-computer-choice.ts";
 
-const gameState: GameState = {playerScore: 0, computerScore: 0}
-
-
-
+playGame(getHumanChoice, getComputerChoice);

@@ -1,3 +1,5 @@
-type PlayHandler = (...args: unknown[]) => unknown
+import type { GameOption } from "./GameOptions.ts";
 
-export type { PlayHandler }
+type PlayHandler = (...args: unknown[]) => GameOption;
+
+export type { PlayHandler };

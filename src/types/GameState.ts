@@ -1,3 +1,10 @@
-type GameState = {playerScore: number, computerScore: number}
+import type { GameOption } from "./GameOptions.ts";
 
-export type { GameState }
+type GameState = {
+  playerScore: number;
+  computerScore: number;
+  playerChoice: GameOption | null;
+  computerChoice: GameOption | null;
+};
+
+export type { GameState };
