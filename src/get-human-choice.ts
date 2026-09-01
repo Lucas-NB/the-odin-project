@@ -1,6 +1,5 @@
 function getHumanChoice() {
-    const userInput = prompt("Make a choice: rock paper scissor")
-
+  const userInput = prompt("Make a choice: rock paper scissor");
 }
 
-export { getHumanChoice }
+export { getHumanChoice };

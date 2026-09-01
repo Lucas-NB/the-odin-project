@@ -1,16 +1,16 @@
-import type {GameOption} from "./types/GameOptions";
+import type { GameOption } from "./types/GameOptions";
 
 function getComputerChoice(): GameOption {
-    const computerOptions: GameOption[] = ["rock", "paper", "scissor"]
-    const randomNumber = Math.floor(Math.random() * 3)
+  const computerOptions: GameOption[] = ["rock", "paper", "scissor"];
+  const randomNumber = Math.floor(Math.random() * 3);
 
-    const computerChoice = computerOptions.at(randomNumber)
+  const computerChoice = computerOptions.at(randomNumber);
 
-    if (computerChoice === undefined) {
-        throw new Error("Invalid choice selected")
-    }
+  if (computerChoice === undefined) {
+    throw new Error("Invalid choice selected");
+  }
 
-    return computerChoice
+  return computerChoice;
 }
 
-export { getComputerChoice }
+export { getComputerChoice };
